@@ -1,7 +1,7 @@
-rootProject.name = "CameraKMP"
+rootProject.name = "KFrameKMP"
 includeBuild("build-logic")
 include(":sample:composeApp")
-include(":kaptureX")
+include(":KFrame")
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>KaptureX</h1>
+  <h1>KFrame</h1>
 </div>
 
 KaptureX is a library designed to facilitate the integration of image and video capture capabilities in multiplatform applications developed with Kotlin. This library is especially useful for those who want to create applications that support multiple platforms such as Android and iOS, providing a unified API and reusable components.

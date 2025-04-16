@@ -6,16 +6,15 @@ plugins {
 }
 
 mavenPublishing {
-    // Define coordinates for the published artifact
     pom {
-        name.set("Camera Jetpack compose for KMM")
-        description.set("KaptureX")
-        url.set("https://github.com/estivensh4/kaptureX")
+        name.set("KFrame")
+        description.set("KFrame is a multiplatform library that allows you to preview your UI inside simulated device frames—just like an emulator. Supporting Android, iOS, Desktop, and Web, KFrame helps you visualize your app's design and behavior across platforms from a single place.")
+        url.set("https://github.com/estivensh/KFrame")
         licenses {
             license {
                 name.set("Apache-2.0")
                 distribution.set("repo")
-                url.set("https://github.com/estivensh4/kaptureX/blob/master/LICENSE.md")
+                url.set("https://github.com/estivensh/KFrame/blob/master/LICENSE.md")
             }
         }
 
@@ -28,9 +27,9 @@ mavenPublishing {
         }
 
         scm {
-            connection.set("scm:git:ssh://github.com/estivensh4/kaptureX.git")
-            developerConnection.set("scm:git:ssh://github.com/estivensh4/kaptureX.git")
-            url.set("https://github.com/estivensh4/kaptureX")
+            connection.set("scm:git:ssh://github.com/estivensh/KFrame.git")
+            developerConnection.set("scm:git:ssh://github.com/estivensh/KFrame.git")
+            url.set("https://github.com/estivensh/KFrame")
         }
     }
 

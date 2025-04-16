@@ -9,10 +9,10 @@
 /* Begin PBXAggregateTarget section */
 		B96E9866C2872A8B63836A92F517CD48 /* composeApp */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = AE2965463FFE0BD344740D9724DE8776 /* Build configuration list for PBXAggregateTarget "composeApp" */;
+			buildConfigurationList = 6028C05ABF8F5B5F90E984329302D2D2 /* Build configuration list for PBXAggregateTarget "composeApp" */;
 			buildPhases = (
-				6D4633A4947A04D78B853E59BE7C2255 /* [CP-User] Build composeApp */,
-				AF8DBC21507F5DA921C0299C23976722 /* [CP] Copy dSYMs */,
+				7AC0C1AFA88B57C1B704ECFDBF648176 /* [CP-User] Build composeApp */,
+				C3CBE2FB667FF338BB5095CA24C88DEC /* [CP] Copy dSYMs */,
 			);
 			dependencies = (
 			);
@@ -39,23 +39,23 @@
 /* Begin PBXFileReference section */
 		015E0D7EA7331961AB63E5AFECA86BB5 /* Pods-iosApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iosApp-umbrella.h"; sourceTree = "<group>"; };
 		11C9B998CE0869936AE6BE69270DAAC9 /* Pods-iosApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iosApp.modulemap"; sourceTree = "<group>"; };
+		166225E3D6F8F42480A3C4A6A2A0F54D /* compose-resources */ = {isa = PBXFileReference; includeInIndex = 1; name = "compose-resources"; path = "build/compose/cocoapods/compose-resources"; sourceTree = "<group>"; };
 		244FC2DAA936A0B07ACEFDC74E2D54B8 /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
-		26061554DC31725E87AAA85E11DEA5DF /* ComposeApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComposeApp.framework; path = build/cocoapods/framework/ComposeApp.framework; sourceTree = "<group>"; };
-		2CF949CF987B4982FA99A0F14C8F1492 /* composeApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = composeApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		35887A764427DB10C8D9D144157C28CC /* composeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = composeApp.release.xcconfig; sourceTree = "<group>"; };
-		399967564819FFC8B6F4D8E48B8873AF /* composeApp-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "composeApp-copy-dsyms.sh"; sourceTree = "<group>"; };
 		55ABB06C8A1800962A74E007E7733796 /* Pods-iosApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosApp-frameworks.sh"; sourceTree = "<group>"; };
 		6F3B5FED07117E377CFAC3D49B490F17 /* Pods-iosApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iosApp-resources.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76A263267985B0185D85E24D40FCEE9A /* Pods-iosApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-Info.plist"; sourceTree = "<group>"; };
 		76D28488EA8CF5C697DFF07967A9960E /* Pods-iosApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iosApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		77ADBA21D3A9CAE14B76A705E15A70CD /* composeApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = composeApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		914C89DE2DAEEDFCDE0576D493B4C332 /* composeApp-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "composeApp-copy-dsyms.sh"; sourceTree = "<group>"; };
+		9226C33213D1043294836514FD1525D8 /* composeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = composeApp.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA4146E59E5412A89A9666168D5D6783 /* compose-resources */ = {isa = PBXFileReference; includeInIndex = 1; name = "compose-resources"; path = "build/compose/ios/ComposeApp/compose-resources"; sourceTree = "<group>"; };
 		B097DD7534E741D5C41838011D755842 /* Pods-iosApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iosApp"; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06DBCD4D25D12FD0C2E00FF1E1E65A9 /* composeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = composeApp.release.xcconfig; sourceTree = "<group>"; };
+		DB80AC9BA37A936E001DB331A35AC4A7 /* ComposeApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ComposeApp.framework; path = build/cocoapods/framework/ComposeApp.framework; sourceTree = "<group>"; };
 		E462E23B3674BF94EAB1504D506F2803 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E4C923318724794E3CC670804C2D6A6B /* Pods-iosApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iosApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6DB2A5F5DADA1DDE45F36B1A2D6AC16 /* Pods-iosApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iosApp-dummy.m"; sourceTree = "<group>"; };
-		EFD6C2809F1255F153FED1219916A7AA /* composeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = composeApp.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18015AC1FDE51235679246372A53D6BE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26061554DC31725E87AAA85E11DEA5DF /* ComposeApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1F86AA6785DF34AFD5A71790761717DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +78,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4578C3CF81C44D0E93457B7A4853DC4E /* Support Files */ = {
+		2A47A6357D25FD863518C1C42A075A78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				399967564819FFC8B6F4D8E48B8873AF /* composeApp-copy-dsyms.sh */,
-				EFD6C2809F1255F153FED1219916A7AA /* composeApp.debug.xcconfig */,
-				35887A764427DB10C8D9D144157C28CC /* composeApp.release.xcconfig */,
+				DB80AC9BA37A936E001DB331A35AC4A7 /* ComposeApp.framework */,
 			);
-			name = "Support Files";
-			path = "../iosApp/Pods/Target Support Files/composeApp";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -105,16 +94,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		84E9739F2A0E26CF4F60BA18E170CCD4 /* composeApp */ = {
+		5F61BD45D10D05C4EE2BE3044D293D23 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA4146E59E5412A89A9666168D5D6783 /* compose-resources */,
-				18015AC1FDE51235679246372A53D6BE /* Frameworks */,
-				D6C2ED57DFD0A296DCC38A6959D6EE3A /* Pod */,
-				4578C3CF81C44D0E93457B7A4853DC4E /* Support Files */,
+				914C89DE2DAEEDFCDE0576D493B4C332 /* composeApp-copy-dsyms.sh */,
+				9226C33213D1043294836514FD1525D8 /* composeApp.debug.xcconfig */,
+				D06DBCD4D25D12FD0C2E00FF1E1E65A9 /* composeApp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../iosApp/Pods/Target Support Files/composeApp";
+			sourceTree = "<group>";
+		};
+		81E06B9C22BA0E415C70E83077CE3F47 /* composeApp */ = {
+			isa = PBXGroup;
+			children = (
+				166225E3D6F8F42480A3C4A6A2A0F54D /* compose-resources */,
+				2A47A6357D25FD863518C1C42A075A78 /* Frameworks */,
+				A8F7D558180B9DADF42EDB86B94A4820 /* Pod */,
+				5F61BD45D10D05C4EE2BE3044D293D23 /* Support Files */,
 			);
 			name = composeApp;
 			path = ../../composeApp;
+			sourceTree = "<group>";
+		};
+		A8F7D558180B9DADF42EDB86B94A4820 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				77ADBA21D3A9CAE14B76A705E15A70CD /* composeApp.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BA6B7BC2729F657E9D3682E55CA6E980 /* Pods-iosApp */ = {
@@ -162,18 +170,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D6C2ED57DFD0A296DCC38A6959D6EE3A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2CF949CF987B4982FA99A0F14C8F1492 /* composeApp.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		DB2D0B7CE4B9F3DF4C66009F5A5495A4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				84E9739F2A0E26CF4F60BA18E170CCD4 /* composeApp */,
+				81E06B9C22BA0E415C70E83077CE3F47 /* composeApp */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6D4633A4947A04D78B853E59BE7C2255 /* [CP-User] Build composeApp */ = {
+		7AC0C1AFA88B57C1B704ECFDBF648176 /* [CP-User] Build composeApp */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,9 +259,9 @@
 			name = "[CP-User] Build composeApp";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../../../../../../private/var/folders/xs/csft9gm54b1gnqvq65r10q7h0000gn/T/wraploc/gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
+			shellScript = "                if [ \"YES\" = \"$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED\" ]; then\n                  echo \"Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\"\"\n                  exit 0\n                fi\n                set -ev\n                REPO_ROOT=\"$PODS_TARGET_SRCROOT\"\n                \"$REPO_ROOT/../../gradlew\" -p \"$REPO_ROOT\" $KOTLIN_PROJECT_PATH:syncFramework                     -Pkotlin.native.cocoapods.platform=$PLATFORM_NAME                     -Pkotlin.native.cocoapods.archs=\"$ARCHS\"                     -Pkotlin.native.cocoapods.configuration=\"$CONFIGURATION\"\n";
 		};
-		AF8DBC21507F5DA921C0299C23976722 /* [CP] Copy dSYMs */ = {
+		C3CBE2FB667FF338BB5095CA24C88DEC /* [CP] Copy dSYMs */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +364,23 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5AAF3403380E65802EFEA21FCED268B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9226C33213D1043294836514FD1525D8 /* composeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -504,9 +521,9 @@
 			};
 			name = Debug;
 		};
-		D1D9342D0441B808AC1F12C58BBED72A /* Release */ = {
+		C2B6D1E354C183D4BA2F6609229CCF5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35887A764427DB10C8D9D144157C28CC /* composeApp.release.xcconfig */;
+			baseConfigurationReference = D06DBCD4D25D12FD0C2E00FF1E1E65A9 /* composeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -522,23 +539,6 @@
 			};
 			name = Release;
 		};
-		E34B1090397EA08A9D1BD4B82D9A910C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFD6C2809F1255F153FED1219916A7AA /* composeApp.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -551,11 +551,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE2965463FFE0BD344740D9724DE8776 /* Build configuration list for PBXAggregateTarget "composeApp" */ = {
+		6028C05ABF8F5B5F90E984329302D2D2 /* Build configuration list for PBXAggregateTarget "composeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E34B1090397EA08A9D1BD4B82D9A910C /* Debug */,
-				D1D9342D0441B808AC1F12C58BBED72A /* Release */,
+				5AAF3403380E65802EFEA21FCED268B6 /* Debug */,
+				C2B6D1E354C183D4BA2F6609229CCF5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.kotlinCocoapods)
+    alias(libs.plugins.compose.compiler)
 }
 
 kotlin {
@@ -54,7 +55,7 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(libs.accompanist.permissions)
-            implementation(projects.kaptureX)
+            implementation(projects.kFrame)
             implementation(libs.napier)
         }
     }
