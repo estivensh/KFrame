@@ -25,7 +25,7 @@ jobs:
           echo $version > version.txt
 
       - name: Upload version artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: version
           path: version.txt
